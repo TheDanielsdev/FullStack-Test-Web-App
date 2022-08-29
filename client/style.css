@@ -1,0 +1,46 @@
+main{
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+table {
+    margin: 50px auto;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid #000;
+
+}
+
+.no-data {
+    color: red;
+}
+
+input:invalid {
+    animation: shake .3s;
+}
+
+@keyframes shake {
+    
+}
+
+.hello {
+    display: block;
+    background-color: red;   
+    width: 100px;
+    height: 100px;
+    margin: 20px 0;
+    padding: 0 50px;
+    text-align: center;
+
+   
+}
+
+.hello > p {   
+    color: green;
+  
+   padding: 50px auto;
+}
