@@ -44,3 +44,30 @@ input:invalid {
   
    padding: 50px auto;
 }
+
+
+
+
+
+#div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: black;
+
+}
+
+.div-shadow {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: green;
+    color: red;
+   
+
+}
+

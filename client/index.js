@@ -89,14 +89,25 @@ function loadDiv(data) {
         divItem.innerHTML = "<p>No Data</p>";
         return;
     } else {
-        
+        const divItem  = document.getElementById('div'); 
+        const newDiv = document.createElement('div');
+        console.log('add');
+        newDiv.classList.add('div-shadow');
+        divItem.appendChild(newDiv);
+
+
+
+
         let divHtml = "";
         data.forEach(function ({id, name, date_added}) {
-            divHtml += "<div class='hello'>";
-            divHtml += `<p>${name}</p>`;            
-            divHtml += "</div>";
+            divHtml += "<p>";
+            divHtml += `<H3>${name}</H3>`;
+            divHtml += `<H3>${date_added}</H3>`;
+            divHtml += "</p>";
+                        
+           
         })
-        divItem.innerHTML = divHtml;
+       newDiv.innerHTML = divHtml;
     }
   
     
